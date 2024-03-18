@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Find the wisdom you seek easily by searching chapters and verses from Bhagavad Gita.">
+</head>
+
+<body>
+    <div class="man">
+        <h1>Slug :<%= info.slug %></h1>
+       <div class="content">
+        
+        <h3 class="jet">Sanskrit :- <%= info.text %></h3>
+        <p class="jet">Meaning:- <%= info.word_meanings %></p>   
+        <p>Description(ENG):-<%= info.translations[1].description%></p> 
+        <p>Author:-<%=info.translations[1].author_name%></p>
+       </div>
+<div class="footer">
+    <h3>&copy; Jetlin karkha</h3>
+</div>
+    </div>
+    
+        
+</body>
+</html>
